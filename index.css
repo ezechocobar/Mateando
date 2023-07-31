@@ -391,4 +391,8 @@ footer .container{
     #info{
         background-position-x: calc(100%);
     }
+
+@media only screen and (max-width: 575px){
+
+}
 }
