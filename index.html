@@ -1,90 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Mateando!</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- agregamos el CSS en el html -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Campeones del Mundo</title>
 </head>
 <body>
+    <!-- Encabezado -->
     <header>
-        <div class="container">
-            <p class="logo">Mateando!</p>
-            <nav>
-                <a href="#quienesomos">¿Quíenes Somos?</a>
-                <a href="#preparacion">Tipos de Mates</a>
-                <a href="#info">Preparación</a>
-                <a href="#final">Contáctanos</a>
-            </nav>
-        </div>
-    </header>
-
+        <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary text-end" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Campeones del Mundo</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./pages/galeria.html">Galeria</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/tienda.html">Tienda</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/sobrenosotros.html">Ubicación</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+    <main>
     <section id="principal">
-        <h1>Muchas veces un buen mate te da la fuerza que necesitás para lograr tus metas!</h1>
-        <button>MATEANDO!</button>
+        <h1>Hemos pasado duras, hemos pasado buenas y hoy nos toca vivir una espectacular.</h1>
+        <p>-Lionel Andrés Messi</p>
     </section>
-    <section id="quienesomos">
-        <div class="container">
-            <div class="img-container"></div>
-            <div class="texto">
-
-                <h2>Somos <span class="color-parrafo">Mateando!</span></h2>
-                <p><strong>Un sitio web dedicado pura y exclusivamente para los amantes del mate.</p></strong>
-                <p><strong>Mateando!</strong> se fundó en mitad del año 2023 con el afán de conseguir que prepares el primer <strong>Mate</strong> de tu vida, algo que quedará para siempre en tu camino.</p>
-            </div>
+    <section id="principalUno">
+        <div class="parrafo">
+        <div class="img-contenedor">
+            <p class="messi">Campeones del Mundo</p>
+        </div>
+        <div class="texto">
+            <h2>Somos los <span class="color-p">Campeones del Mundo</span></h2>
+            <p><strong>Todos cantan, todos se abrazan, todos corren, todos lloramos. La selección ganó la final y puso otra vez al fútbol argentino como el mejor del mundo. Se hizo en Qatar, se celebra en la Argentina y el resto del mundo nos rinde pleitesía. Un día del que no nos olvidaremos por el resto de nuestras vidas.</strong></p>
         </div>
     </section>
-
-    <section id="preparacion">
-        <div class="container">
-            <h2>Tipos de Mates</h2>
-            <div class="preparacion">
-                <div class="parte">
-                    <h3>METAL</h3>
-                    <p>Algunos transmiten el calor del agua al tacto y otros se fabrican utilizando acero inoxidable en capas, las mismas aseguran que el mate no se caliente luego de varias cebadas y se dificulte la tarea del cebador cuando lo agarre.</p>
-                    <button>Disfruta!</button>
-                </div>
-                <div class="parte">
-                    <h3>MADERA</h3>
-                    <p>Los hay de algarrobo torneado, palo santo, quebracho, roble. Se tiñen, tallan, y adornan de diversas formas. Según el tipo de madera, cada mate adquiere un sabor peculiar.</p>
-                    <button>Sonreí!</button>
-                </div>
-                <div class="parte">
-                    <h3>SILICONA</h3>
-                    <p>Son los más modernos y también son fáciles de limpiar. Los mates de silicona no fijan bacterias ni gustos, conservan el calor, son  irrompibles y de vaciado fácil.</p>
-                    <button>Compartí!</button>
-                </div>
-            </div>
+    <section id="principalDos">
+        <div class="parrafoDos">
+            <p class="texto">Lo veo a Messi disfrutando como ese chico al que le hicieron el regalo más querido: el de la pelota de fútbol. El tenía todo, pero le faltaba algo y siempre supo que era lo más importante. Creíamos que había llegado a la gloria con sus siete balones de oro, con el reconocimiento unánime y mundial, con los treinta y pico de títulos ganados. El no. El quería esto. El quería esa copa. El quería hacerlo con esta camiseta. El sabía que la gloria, la verdadera gloria, era lo que vino a buscar a Qatar, a los 35 años, vigente, espléndido, iluminado y ganador.</p>
+            <iframe class="img-contenedor" width="560" height="315" src="https://www.youtube.com/embed/ricHDE1FV8c?start=13" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     </section>
-
-    <section id="info">
-        <div class="container">
-            <ul>
-                <h3>Preparación</h3>
-                <li>① El primer paso es usar una yerba de buena calidad para nuestro mate, pues esto va a determinar en gran medida su sabor, textura y aromas.</li>
-                <li>② Colocamos el recipiente boca abajo y lo agitamos con fuerza para lograr que todos los ingredientes se mezclen y se distribuyan de forma homogénea.</li>
-                <li>③ Traemos el mate lentamente a su posición inicial, pero cuidando que la yerba quede inclinada a 45°, formando una especie de agujero. Por allí vamos a verter un chorrito de agua tibia (se aconseja una temperatura entre 70° C y 80° C) para humedecer la parte baja.</li>
-                <li>④ Traemos el mate lentamente a su posición inicial, pero cuidando que la yerba quede inclinada a 45°, formando una especie de agujero. Por allí vamos a verter un chorrito de agua tibia (se aconseja una temperatura entre 70° C y 80° C) para humedecer la parte baja y agregamos el agua progresivamente hacia el lado del mate donde está la bombilla.</li>
-                <li>⑤ ¡Listo! El resultado será una infusión espumosa y rendidora, con el buen sabor de la yerba que durará mucho más.</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="final">
-        <h2>Nuestras redes sociales</h2>
-        <section class="buttons">
-            <a target="_blank" href="https://www.facebook.com/franco.chocobar.3" class="fa fa-facebook"></a>
-            <a target="_blank" href="https://www.linkedin.com/in/franco-ezequiel-chocobar-80747824b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bsrqc%2F3JLQlGGZFfZkzZXyQ%3D%3D" class="fa fa-linkedin"></a>
-            <a target="_blank" href="https://web.whatsapp.com/" class="fa fa-whatsapp"</a>
-            <a target="_blank" href="https://github.com/ezechocobar" class="fa fa-github"></a>
-        </section>
-        <p><br></p>
-        <button><a href="#quienesomos">Nosotros</a></button>
-    </section>
+    </main>
     <footer>
-        <div class="container">
-            <p>&copy; Todos los derechos reservados <strong>Ezequiel</strong></p>
-        </div>
+        <p><b>Todos los derechos reservados © Chocobar Franco Ezequiel</b></p>
+        <a class="email" href="mailto:ezechocobar15@gmail.com">Contáctate conmigo</a>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
 </body>
 </html>
